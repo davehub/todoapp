@@ -15,23 +15,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Liste de tâches (Exemple) */}
-        <div className="bg-gray-100 p-4 rounded-lg">
-          <h2 className="text-xl font-semibold text-gray-800 mb-3">Tâches récentes :</h2>
-          <ul className="space-y-2">
-            <li className="bg-white shadow-sm p-3 rounded-md">
-              ✅ Finaliser le design du projet
-            </li>
-            <li className="bg-white shadow-sm p-3 rounded-md">
-              🚀 Publier le site sur Vercel
-            </li>
-            <li className="bg-white shadow-sm p-3 rounded-md">
-              🛠️ Réviser le code Next.js
-            </li>
-          </ul>
-        </div>
-
-        {/* Bouton de navigation */}
         <div className="text-center mt-6">
           <Link
             href="/tasks"
